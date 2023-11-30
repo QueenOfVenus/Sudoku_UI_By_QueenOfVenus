@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
         * {
             box-sizing: border-box;
-
+            
+            
         }
+
+        /* body {
+            background-image:url("landscape-fantasy-art-2j-1440x900.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            
+            
+
+        } */
 
         h1 {
             text-align: center;
-
+            
         }
 
         table {
             border: 5px solid transparent;
             width: 500px;
             height: 55px;
-            margin: 1px;
+            
 
         }
 
@@ -28,6 +39,8 @@
             display: flex;
             flex: content;
             flex-direction: row;
+            justify-content: center;
+            
 
         }
 
@@ -36,6 +49,7 @@
             height: 158px;
             border: 1px solid rgb(9, 255, 0);
             padding: 3px;
+            margin: 0px 0px 0px 2px;
             
         }
 
@@ -51,25 +65,28 @@
             background-color: rgba(91, 52, 234, 0.349);
             border-style: none;
             margin: 1px;
-
+            
         }
 
         input[type=text]:focus {
             font-size: x-large;
             text-align: center;
             background-color: rgba(91, 52, 234, 0.681);
-            border-style: none;
+            border: none;
+            outline: none;
             margin: 1px;
-
+            
         }
+
 
 
     </style>
 </head>
 <body>
+    <div>
     <h1>SUDOKU</h1>
     
-    <table style="margin: 0% 30%;">
+    <table style="margin: 0px 320px;">
         <tr>
             <td>
                 <input type="text" name="" id="">
@@ -176,7 +193,7 @@
             </td> 
         </tr>
     </table>
-
+    </div>
     
 </body>
 </html>
